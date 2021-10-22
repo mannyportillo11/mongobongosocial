@@ -16,6 +16,7 @@ const userController = {
         res.status(400).json(err);
       });
   },
+  
   // get one user by id
   getUserById({ params }, res) {
     User.findOne({ _id: params.id })
