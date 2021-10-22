@@ -12,9 +12,9 @@ app.use(require('./routes'));
 
 // connect mongoose 
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/mongobongosocial', {
-    useFindAndModify: false,
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
+    // useFindAndModify: false,
+    // useNewUrlParser: true,
+    // useUnifiedTopology: true,
 });
 
 // use this to log mongo queries being executed
